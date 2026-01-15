@@ -1,0 +1,8 @@
+[Unit]
+Description=UFI 410 JLink Share Tool
+After=network.target
+[Service]
+ExecStart=/usr/bin/jlink-share
+User=root
+[Install]
+WantedBy=multi-user.target
