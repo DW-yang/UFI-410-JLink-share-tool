@@ -14,7 +14,8 @@ gcc
 libnm-dev
 
 #### 编译
+make prepare
 make build
 
 #### 安装
-make installs
+make install

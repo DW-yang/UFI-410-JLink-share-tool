@@ -6,3 +6,6 @@ install:
 	cp -f ./jlink-share.service /etc/systemd/system/
 	systemctl daemon-reload
 	systemctl enable jlink-share
+
+prepare:
+	apt install gcc libnm-dev -y
